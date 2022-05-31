@@ -1,0 +1,659 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px;
+    height: 100px;
+}
+header h1{
+    display: inline-flex;
+    font-size: 23pt;
+    font-style: none;
+    text-decoration: none;
+    padding-left: 13px;
+    color: rgb(230, 93, 44);
+    line-height: 10px;
+}
+#index{
+    text-decoration: none;
+}
+#logo{
+    height: 60px;
+    padding: 0;
+}
+.icon-bread{
+    font-size: 30pt;
+    color: rgb(230, 93, 44);
+    
+}
+#homenav{
+    margin-right: 90px;
+}
+#homenav a{
+    padding: 0 20px 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(170, 141, 105);
+}
+#sobre{
+    border-right: 1px solid;
+}
+
+#atuacao{
+    border-right: 1px solid;
+}
+#receitas{
+    border-right: 1px solid;
+}
+#homenav a:hover{
+    color: rgb(230, 93, 44);
+}
+#person{
+    background-color: antiquewhite;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#person i, #person h1, #person span{
+    margin: auto;
+}
+#person i{
+    margin-bottom: 0;
+    font-size: 30pt;
+}
+#person h1{
+    margin-bottom: 0;
+    font-size: 30pt;
+    color: rgb(79, 79, 79);
+}
+#person span{
+    color: rgb(124, 123, 123);
+}
+#cooking-section{
+    background-color: rgb(76, 1, 42);
+}
+#restaurant-section{
+    background-color: goldenrod;
+}
+#fruits-section{
+    background-color: #fff;
+}
+#vegetables-section{
+    background-color: rgb(117, 166, 19);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 400px;
+}
+.container figure{
+    width: 400px;
+    padding: 30px;
+}
+#vegetables-section figure{
+    width: 370px;
+}
+.container img{
+    width: 100%;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+}
+.conteudo h1{
+    margin-bottom: 20px;
+}
+.conteudo p{
+    text-align: justify;
+    width: 500px;
+    height: 100px;
+    font-size: 12pt;
+    color: rgba(255, 255, 255, 0.754);
+}
+.conteudo .button{
+    background-color: goldenrod;
+    width: 90px;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(76, 1, 42);
+    font-size: 11pt;
+    text-align: center;
+}
+#restaurant-section .conteudo .button{
+    background-color: rgb(76, 1, 42);
+    color: goldenrod;
+}
+#fruits-section .conteudo h1, #fruits-section .conteudo p{
+    color: rgb(117, 166, 19);
+}
+#fruits-section .button{
+    background-color: rgb(117, 166, 19);
+    color: #fff;
+}
+#vegetables-section .button{
+    background-color: #fff;
+    color: rgb(117, 166, 19);
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0 10px 0;
+    height: 400px;
+}
+footer nav a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(117, 166, 19);
+}
+footer form{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+}
+footer form input{
+    border: none;
+    margin: 10px;
+    padding: 5px;
+}
+footer form button{
+    background-color: rgb(230, 93, 44);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 2px;
+}
+footer form button:hover{
+    color: rgb(98, 33, 10);
+    background-color: rgb(230, 93, 44);
+}
+footer #redes{
+    display: flex;
+    justify-content: space-around;
+}
+footer #redes a{
+    padding: 10px;
+    margin-left: 15px;
+    color: #fff;
+}
+footer #redes .facebook{
+    background-color: rgb(32, 32, 166);
+    width: 35px;
+    text-align: center;
+    border-radius: 800px;
+}
+footer #redes .twitter{
+    background-color: rgb(19, 180, 208);
+    width: 35px;
+    text-align: center;
+    border-radius: 800px;
+}
+footer #redes .pinterest{
+    background-color: rgb(198, 5, 5);
+    width: 35px;
+    text-align: center;
+    border-radius: 800px;
+}
+footer p{
+    font-size: 10pt;
+    color: rgb(56, 81, 5);
+}
+.biografia .container{
+    min-height: 900px;
+    background-color: rgb(245, 236, 225);
+    display: flex;
+    justify-content: left;
+}
+.biografia figure{
+    width: 2000px;
+    padding: 10px;
+    background-color: #fff;
+    margin-right: 100px;
+}
+.biografia .container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 600px;
+    color: rgb(101, 101, 101);
+}
+.biografia .container div h2{
+    font-size: 40pt;
+    margin-bottom: 50px;
+}
+.biografia .container div p{
+    font-size: 16pt;
+    margin-bottom: 30px;
+}
+.biografia .container div ul{
+    list-style: none;
+}
+.biografia .container div li{
+    padding: 20px;
+    padding-left: 0;
+}
+.biografia .container div .icon{
+    background-color: rgb(230, 93, 44);
+    padding: 12px;
+    height: 70px;
+    border-radius: 80px;
+    text-align: center;
+    margin-right: 30px;
+}
+.biografia .container div .icon span{
+    font-size: 13pt;
+    text-align: center;
+    color: #fff
+}
+#especial{
+    height: 900px;
+    background-color: rgb(245, 236, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 0;
+}
+#especial h2{
+    flex-grow: 2;
+    font-size: 30pt;
+    color: rgb(87, 87, 87);
+    height: 70px;
+}
+#especial hr{
+    width: 100%;
+}
+#especial p{
+    margin-top: 0;
+    flex-grow: 1;
+}
+#especial #servicos{
+    flex-grow: 4;
+}
+#servicos{
+    display: flex;
+    align-items: center;
+}
+.serv-icon{
+    font-size: 80pt;
+    text-align: center;
+    line-height: 230px;
+    color: #fff;
+    margin: 20px;
+}
+.purple .serv-icon{
+    background-color: rgb(74, 0, 74);
+    height: 230px;
+    border-radius: 300px;
+}
+.green .serv-icon{
+    background-color: rgb(117, 166, 19);
+    height: 230px;
+    border-radius: 300px;
+}
+.pink .serv-icon{
+    background-color: rgb(252, 72, 93);
+    height: 230px;
+    border-radius: 300px;
+}
+.orange .serv-icon{
+    background-color: goldenrod;
+    height: 230px;
+    border-radius: 300px;
+}
+#servicos  h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#servicos p{
+    text-align: center;
+}
+#especial p{
+    color: rgb(138, 138, 138);
+    font-size: 13pt;
+}
+#especial p a{
+    text-decoration: none;
+    color: rgb(230, 93, 44);
+}
+#last{
+    padding-top: 20px;
+}
+#recype{
+    height: 1150px;
+    background-color: rgb(245, 236, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.receita figure{
+    width: 500px;
+    border-radius: 150px;
+}
+.receita img{
+    width: 100%;
+    border-radius: 1500px;
+}
+.receita{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 200px;
+    margin: 40px 0 40px 0;
+    padding: 0 30px 0 0;
+}
+.receita-detalhes h2{
+    font-size: 17pt;
+    margin-bottom: 30px;
+}
+.receita-detalhes p{
+    margin-bottom: 30px;
+    color: rgb(87, 87, 87);
+}
+.receita-meta{
+    color: rgb(87, 87, 87);
+}
+.receita-detalhes .time{
+    margin-right: 10px;
+}
+.receita-detalhes .calorie{
+    margin-right: 10px;
+}
+#recype .title{
+    font-size: 30pt;
+    color: rgb(87, 87, 87);
+    margin-bottom: 30px;
+}
+#recype p{
+    color: rgb(87, 87, 87);
+}
+.recipe-title{
+    color: rgb(230, 93, 44);
+}
+#contato .container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 236, 225);
+    padding-top: 50px;
+    height: 600px;
+}
+#contato .container{
+    color: rgb(87, 87, 87);
+}
+#contato .container .title{
+    width: 900px;
+    font-size: 26pt;
+    margin-bottom: 40px;
+}
+#contato .container p{
+    width: 900px;
+    font-size: 11pt;
+}
+.contato-detalhes{
+    border: 2px solid #ccc;
+    width: 900px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.email a, .cel a{
+    text-decoration: none;
+    color: rgb(230, 93, 44);
+}
+.email, .cel{
+    padding-left: 30px;
+}
+.local span, .email span, .cel span{
+    padding-right: 10px;
+}
+#contato form{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.col{
+    width: 450px;
+}
+#contato form input{
+   display: inline-block;
+   width: 430px;
+   height: 50px;
+   border-radius: 20px;
+   border: none;
+   padding: 20px;
+   margin-bottom: 15px;
+}
+#contato textarea{
+    width: 450px;
+    height: 180px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+}
+.col button{
+    background-color: rgb(230, 93, 44);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width:768px){
+    header{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    header .container{
+        display: inline-block;
+    }
+    #logo a{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    #homenav {
+        margin-right: 0;
+    }
+    header h1{
+        display: inline-block;
+        font-size: 28pt;
+        
+    }
+    header .icon-bread{
+        font-size: 40pt;
+    }
+    #homenav #sobre ,#homenav #atuacao, #homenav #receitas{
+        padding: 0 5px 0 5px;
+    }
+    #homenav a{
+        padding: 5px;
+    }
+    #person{
+       display: flex;
+       padding-left: 100px;
+       padding-right: 100px;
+    }
+    #person h1{
+        text-align: center;
+        font-size: 22pt;
+        margin: auto;
+        display: block;
+    }
+    .container{
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 0;
+        width: 100%;
+    }
+    .container figure{
+        width: 200px;
+        padding: 10px;
+        text-align: center;
+        margin-left: 80px;
+    }
+    .container .conteudo{
+        width: 200px;
+    }
+    .conteudo h1, .conteudo p, .conteudo a{
+        width: 350px;
+    }
+    .conteudo h1{
+        float: left;
+    }
+    #restaurant-section figure, #vegetables-section figure{
+        width: 180px;
+    }
+    .container .button{
+        width: 90px;
+        height: 30px;
+        padding: 5px;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .site-footer form{
+        width: 300px;
+    }
+    .site-footer p{
+        text-align: center;
+    }
+    .biografia .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .biografia .container div h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 30pt;
+    }
+    #especial{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }   
+    #servicos{
+        flex-wrap: wrap;
+    }
+    .receita{
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        padding: 20px;
+        margin-right: 10px;
+    }
+    .receita figure{
+        margin-left: 55px;
+    }
+    .receita-meta .time, .receita-meta .calorie, .receita-meta .comment{
+        display: inline-block;
+        margin-right: 100px;
+        margin-bottom: 10px;
+    }
+    #recype{
+        height: 2130px;
+    }
+    #recype .title, #recype p{
+        margin-right: 10px;
+    }
+    #recype .title{
+        font-size: 25pt;
+    }
+    #contato .container .title, #contato .container p, .contato-detalhes, #contato form, .col .button, .col textarea{ 
+        width: auto;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    #contato form{
+        display: block;
+    }
+    .col{
+        display: block;
+    }
+    #contato .container{
+        height: 1100px;
+        padding-top: 10px;
+    }
+    .col input{
+        width: 50px;
+    }
+    #contato form input, #contato form textarea, #contato form .button{
+        width: 350px;
+        margin-left: 50px;
+    }
+    .col button{
+        margin-left: 160px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .email, .cel{
+        display: block;
+        padding-left: 0;
+    } 
+    .email{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .email{
+        margin-top: 10px;
+    }
+    .contato-detalhes{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    #servicos{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    #especial{
+        height: 2600px;
+    }
+    #especial p{
+        flex-grow: 0;
+        margin-bottom: 20px;
+    }
+    #especial h2{
+        flex-grow: 3.5;
+    }
+    #servicos{
+        width: 270px;
+        display: block;
+    }
+    .purple{
+        display: block;
+    }
+    #especial #servicos{
+        flex-grow: 1;
+    }
+}
